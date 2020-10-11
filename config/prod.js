@@ -7,5 +7,6 @@ module.exports = {
   googleRedirectURI: "/auth/google/callback",
   stripePublishableKey: process.env.STRIPE_PUBLISHABLE_KEY,
   stripeSecretKey: process.env.STRIPE_SECRET_KEY,
-  sendGridKey: process.env.SENDGRID_KEY
+  sendGridKey: process.env.SENDGRID_KEY,
+  redirectDomain: process.env.REDIRECT_DOMAIN
 };
